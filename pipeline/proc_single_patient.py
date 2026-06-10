@@ -23,7 +23,7 @@ from typing import Dict, List, Tuple
 VERTEBRAE_ELEM_TYPE = 5      # Marc element type 5: 2-node planar (Bernoulli) beam
 DISC_ELEM_TYPE = 194         # type 194: planar bushing / connector element
 
-# Cortical bone modulus. Working in an N-mm unit system, so 10 GPa = 1e4 N/mm^2.
+# Cortical bone modulus
 E_BEAM = 1.0e4
 NU_BEAM = 0.30
 
