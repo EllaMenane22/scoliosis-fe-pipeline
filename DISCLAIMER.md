@@ -8,7 +8,7 @@ the scripts expect and to allow the pipeline to run as a worked example. The
 patient numbers, Cobb angles, convexity directions and end vertebrae are all
 made up and do not correspond to any real person.
 
-Because this repository is public, no real clinical data has been uploaded, in
+Since this repository is public, no real clinical data has been uploaded, in
 order to protect the privacy of the patients in the study. The actual project
 was validated against a separate, fully anonymised retrospective clinical
 dataset, which is not shared here and is not included in this repository in any
