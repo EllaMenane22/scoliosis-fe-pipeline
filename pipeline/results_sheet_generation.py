@@ -24,7 +24,7 @@ from openpyxl.styles import Font, PatternFill, Border, Side, Alignment
 # Paths
 
 BASE_DIR = Path(
-    r"C:\Users\<username>\OneDrive - Imperial College London\Year 4\FYP\Patient_1_final"
+    r"C:\Users\<username>\OneDrive - Imperial College London\Year 4\FYP"
 )
 
 OUTPUT_ROOT = Path(
