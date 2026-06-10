@@ -27,7 +27,7 @@ from typing import Dict, List, Optional, Tuple
 from pathlib import Path
 
 BASE_DIR = Path(
-    r"C:\Users\<username>\OneDrive - Imperial College London\Year 4\FYP\Patient_1_final"
+    r"C:\Users\<username>\OneDrive - Imperial College London\Year 4\FYP"
 )
 
 # The two raw clinical inputs this script reads.
