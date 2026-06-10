@@ -2,11 +2,11 @@
 
 Automated pipeline for building and solving simplified 2D coronal-plane finite
 element models of the scoliotic spine, used to predict in-brace Cobb angle
-correction for single-curve adolescent idiopathic scoliosis (AIS) patients
+correction for single-curve Adolescent Idiopathic Scoliosis (AIS) patients
 braced with a Chêneau brace.
 
 This repository accompanies my final year project. It contains the full
-automated workflow: it takes patient Cobb angles and curve descriptions,
+automated workflow. It takes patient Cobb angles and curve descriptions,
 builds a patient-specific spine model, writes the Marc Mentat input, solves
 every patient in a batch, and extracts the predicted Cobb angles.
 
@@ -49,7 +49,7 @@ machine they were written on. These are shown with a `<username>` placeholder,
 for example:
 
 ```python
-BASE_DIR = Path(r"C:\Users\<username>\OneDrive - Imperial College London\Year 4\FYP\Patient_1_final")
+BASE_DIR = Path(r"C:\Users\<username>\OneDrive - Imperial College London\Year 4\FYP")
 ```
 
 Before running anything you must replace these with the paths to your own
