@@ -3,7 +3,7 @@ Baseline batch runner. Walks every patient folder, pushes that patient's .dat
 through Marc, and lets Marc drop the .t16 / .out / .sts back into the same
 folder.
 
-This is the single baseline model only (no M2-M5 parameter sweep). Anything
+This is the single baseline model only. Anything
 that's already finished (its .t16 exists) is skipped, so re-running is cheap.
 To force one patient to run again, delete its .t16 first.
 
